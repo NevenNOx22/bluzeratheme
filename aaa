@@ -1,0 +1,85 @@
+/** This is an Alternative Version of "Discord+ and translate"
+ * @name Bluzera
+ * @author Vls
+ * @authorId 289555046272598021
+*/
+
+import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
+
+/* A maioria dos valores estao explicados para que possam alterar. */
+
+.theme-dark {
+/* 
+   Imagem de fundo pode ser uma cor HTML. *Retorna para a cor de destaque se for inválido.
+   Para usar uma imagem do seu computador, primeiro carregue-a em algum lugar, copie o link e cole-a abaixo. */
+  --dplus-backdrop: url(https://cdn.discordapp.com/attachments/381684873016115203/1090650007767617657/wp4902205-dark-pc-wallpapers.jpg);
+
+/* Cor central, usada para customizar a interface com cores. */
+  --dplus-accent-color-hue: 30;
+  --dplus-accent-color-saturation: 300%;
+  --dplus-accent-color-lightness: 20%;
+
+/* Cor de primeiro plano: para itens como texto e ícones. */
+  --dplus-foreground-color-hue-base: 0;
+  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-lightness-amount: 1;
+
+/* Cor de fundo: "filtro" sobre o fundo para facilitar a leitura do aplicativo. */
+  --dplus-background-color-hue: 320;
+  --dplus-background-color-saturation-amount: 1;
+  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-alpha: 0.8;
+}
+
+/* Se você usar o tema claro, poderá fornecer configurações exclusivas separadas do tema escuro. */
+.theme-light {
+  --dplus-backdrop: url(https://ibb.co/9pc3j8t);
+  
+  --dplus-accent-color-hue: 320;
+  --dplus-accent-color-saturation: 60%;
+  --dplus-accent-color-lightness: 31%;
+  
+  --dplus-foreground-color-hue-base: 210;
+  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-lightness-amount: 1;
+
+  --dplus-background-color-hue: 320;
+  --dplus-background-color-saturation-amount: 1;
+  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-alpha: 0.8;
+}
+
+:root {
+/* Fonts */
+/* Você pode usar qualquer fonte instalada no seu computador. */
+  --dplus-font-ui: 'Poppins';
+  --dplus-font-body: 'Roboto';
+  --dplus-font-header: 'Righteous';
+
+/* Tamanhos de canto arredondado, medidos em raio de pixel.
+Defina o raio do avatar/servidor para 50% para torná-los circulares.
+   O raio do ícone do usuário deve estar em pixels. */
+  --dplus-radius-ui: 10px;
+  --dplus-radius-avatar: 20%;
+  --dplus-radius-server: 20%;
+
+/* Isso decide quanto espaço deve haver entre coisas como botões e conteúdo/chat. */
+  --dplus-spacing-ui: 10px;
+
+/* Isso define quanto espaço deve haver entre o conteúdo do aplicativo e as bordas da janela. Também afeta a distância entre os principais elementos da interface do usuário, como a lista de servidores para a lista de canais e a lista de canais para o bate-papo. */
+   --dplus-spacing-app: 10px;
+
+/* Tamanho do ícone de avatar e de servidores */
+--dplus-icon-avatar-chat: 64px;
+--dplus-icon-avatar-list: 32px;
+--dplus-icon-avatar-profile: 80px;
+
+--dplus-icon-server-sidebar: 48px;
+--dplus-icon-server-list: 32px;
+
+/* O ícone Home no canto superior esquerdo */
+--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
+}
